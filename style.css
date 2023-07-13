@@ -1,31 +1,3 @@
-
-/*
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 20px;
-    position: absolute;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-nav ul li a:hover{
-    color: chocolate;
-    transition: 3s;
-}
-
-nav{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding-top: 5px;
-      padding-left: 2%;
-      padding-right: 2px;
-*/
-/* Add a backgound color to the top navigation*/
 .topnav {
     overflow: hidden;
 }
@@ -45,44 +17,6 @@ nav{
     color: chocolate;
     transition: 3s;
 }
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon{
-    display: none;
-}
-
-/* When the screen is less than 600 pixels wide, hide all links,
-except for the first one ("Home"). Show the link that contains
-should open and close the topnav (.icon) 
-@media  screen and (max-width: 600px) {
-    .topnava:not(:first-child) {display: none;}
-    .topnav a.icon{
-        float: right;
-        display: block;
-    }
-}
-*/
-/* The "responsive" class is added to the
-topnav with JavaScript when the user clicks on
-the icon. This class makes the topnav look
-good on small screens (display the links
-vertically instead of horizontally) 
-
-@media screen and (max-width: 600px) {
-    .topnav.responsive{position: relative;}
-    .topnav.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-}
-*/
-
 
 @media screen  and (max-width: 650px) {
     body {
@@ -113,14 +47,13 @@ vertically instead of horizontally)
     .pra p {
         font-size: 14px;
         line-break: anywhere;
-        line-height: 95%;
+        line-height: 100%;
         text-align: left;
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 40px;
-        margin-top: 5px;
+        margin-top: 0px;
         font-family: 'Times New Roman', Times, serif;
-        font-weight: 100;
     }
     .logo {
         padding-left: 5px;
@@ -140,4 +73,20 @@ vertically instead of horizontally)
         width: 100%;
         position: static;
     }
+}
+.footer {
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+.name, .icons{
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.icons a{
+    font-size: 40px;
+    text-decoration: none;
+    color: chocolate;
 }
