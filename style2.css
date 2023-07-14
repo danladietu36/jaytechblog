@@ -78,7 +78,7 @@ h3{
 }
 .about{
     margin-top: 400px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     margin-left: 50px;
 }
 .indent{
@@ -92,7 +92,7 @@ h3{
     line-height: 25px;
 }
 .space{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: chocolate;
 }
 .soft{
@@ -135,6 +135,10 @@ h3{
     text-decoration: none;
     color: chocolate;
     margin-bottom: 20px;
+}
+.hover:hover {
+    transform: scale(1.2);
+    margin-bottom: 10px;
 }
 .pra p{
     color: white;
