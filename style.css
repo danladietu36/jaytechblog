@@ -1,3 +1,4 @@
+/* hide nav bar overflow */
 .topnav {
     overflow: hidden;
 }
@@ -18,11 +19,13 @@
     transition: 3s;
 }
 
+/* small screen responsive styles */
 @media screen  and (max-width: 600px) {
     body {
-        max-width: 400px;
+        width: 100%;
 
     }
+    /* nav bar style for small screen */
     .topnav a{
         font-size: 14px;
         text-align: right;
@@ -31,11 +34,12 @@
         margin-right: 0px;
         margin-right: 0px;
     }
+
     .indent {
-        font-size: 15px;
-        margin-left: 50px;
-        margin-right: 50px;
-        line-height: 150%;
+        font-size: 4vw;
+        margin-left: auto;
+        margin-right: 30px;
+        line-height: 130%;
         line-break: anywhere;
     }
     .title.space{
@@ -44,7 +48,7 @@
         margin-right: 100px;
     }
     .logo {
-        font-size: 12px;
+        font-size: 4vw;
         padding-right: 0px;
         padding-left: 5px;
         margin-left: 0px;
@@ -55,13 +59,11 @@
         font-size: 16px;
     }
     .pra p {
-        font-size: 15px;
-        text-indent: 20%;
+        font-size: 16px;
+        text-indent: 10%;
         line-break: anywhere;
         line-height: 150%;
-        text-align: left;
-        margin-left: 0px;
-        margin-right: 0px;
+        text-align: center;
         margin-bottom: 40px;
         margin-top: 0px;
         width: 130%;
@@ -69,12 +71,15 @@
     }
 }
 
+/* display and styles for big screen */
 @media  screen and (min-width: 768px) and (max-width: 1024px){
     .indent {
+        font-size: 2vw;
         padding-right: 100px;
-        margin-right: 300px;
-        margin-left: 200px;
-        width: 200%;
+        margin-right: 3px;
+        margin-left: 20px;
+        width: 100%;
+        text-align: justify;
     }
     .space {
         width: 100%;
@@ -92,11 +97,14 @@
     margin-bottom: 30px;
     margin-top: 15px;
 }
+/* footer anchor on hovering */
 .icons a{
     font-size: 40px;
     text-decoration: none;
     color: chocolate;
 }
+
+/* footer anchor on hovering */
 .icons:hover {
     transform: scale(1.2);
 }
