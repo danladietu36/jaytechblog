@@ -132,7 +132,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 300px;
+    max-height: 800px;
+    min-height: fit-content;
     text-indent: 10%;
 }
 /* style each of the two projects */

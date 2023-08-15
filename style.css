@@ -27,7 +27,7 @@
     }
     /* nav bar style for small screen */
     .topnav a{
-        font-size: 14px;
+        font-size: calc(1vw + 8px);
         text-align: right;
         padding-left: 40px;
         padding-right: 0px;
